@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- This is the doc type, it tells atom what
+                type of file this is -->
+<html><i> I can also add text here and it will appear in my website</i>
+<!-- This is a html tag, this tells the browser
+                              that everything between the opening and closing tag "<html> is html code
+                              The code consists of a head and a body
+                              -->
+
+<head>
+  <!-- The head holds information about the web page and tells the browser how it should handle it -->
+  <meta charset="utf8" />
+  <title>∑∫ Elvy's personal website⋙</title> <!-- This is self explanatory -->
+</head>
+
+<body>
+  <table cellspacing="20">  <!-- The cellspacing adds a 20 (pixel?) spacing between the columns of the table -->
+    <tr>
+      <td>
+        <!-- Adding an image, profile picture to my website -->
+        <!-- <img src="C:\Users\elvym\Pictures\Camera Roll\IMG_4262.jpg" alt="Elvy Manun'Ebo profile picture"> -->
+
+        <!-- Alternatively, if the image is stored at the same location as the project directory then it can be refered to directly without a link -->
+        <img src="images\IMG_4262.jpg" alt="Elvy Manun'Ebo profile picture">
+      </td>
+
+      <td>
+        <h1>Elvy Manun'Ebo </h1>
+        <p><b><i>Founder at Ki-ntangu projects</i></b></p>
+        <!-- The p here stands for paragraph
+                                                                The b stands for bold -->
+        <p><strong>Benchmarking creativity in <strong><a
+                href="https://www.google.com/search?q=kikwit&rlz=1C1SQJL_enGB889GB889&sxsrf=ALeKk00O_4qHLMff6g_NhVLlgeF-CcN3hg:1606503595960&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjhiquhtKPtAhVEkFwKHekGAfYQ_AUoA3oECBEQBQ&biw=1536&bih=792#imgrc=sG3-lGT4IXwKfM">Kikwit</a></strong>
+        </p>
+        <!-- The strong here is similar to bold however bold is a physical state of the text
+                                                            while strong is a logical state i.e. strong can represent many other states the text can take -->
+        <p> I am a private researcher in many art forms. I enjoy entertaining on a Saturday night with the added bonus</p>
+
+      </td>
+    </tr>
+  </table>
+
+  <hr size="3" noshade>  <!-- This writes a line of the given size across the page-->
+  <h3><b>Education</b></h3>
+
+  <ul>
+    <!-- This stands for unordered list -->
+    <li>Business Economics Finance <br>Nottingham Trent University</li>
+    <li>Post Experience Diploma in Statistics <br>University of Reading</li>
+  </ul>
+
+  <hr size="3" noshade>  <!-- This writes a line of the given size across the page Separating books and teaching and work experience-->
+
+  <h3>Work Experience:</h3>
+  <!-- Adding a table for work experience -->
+  <table border="1" width="40%"> <!-- The border adds a border around the table of thickness=1, the width="40%" is a separator between the columns of a table -->
+    <thead>
+      <!--Adds headers to the table, note this is formatted in bold -->
+      <tr>
+        <!-- Note this adds a row for the headers -->
+        <th>Dates</th> <!-- This is a table header element -->
+        <th>Roles</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- this is a table row (The first row) -->
+        <td>
+          <!-- This represents the table data i.e. the first cell -->
+          08/2016 to Present
+        </td>
+        <td>
+          Founder at Ki-Ntangu
+        </td>
+      </tr>
+      <tr>
+        <!-- The second row of data -->
+        <td>
+          <!-- The first cell of the second row -->
+          05/2016 to 08/2016
+        </td>
+        <td>Risk Model Analyst at Bank of Ireland</td>
+      </tr>
+      <tr>
+        <!-- The third row of data -->
+        <td>01/2016 to 07/2016</td>
+        <td>Owner of Nar’Senton Agriculture Project in DR Congo</td>
+      </tr>
+      <tr>
+        <td>09/2015 to 01/2016</td>
+        <td>Contract analyst at HSBC AML via CRISIL Analytics</td>
+      </tr>
+      <tr>
+        <td>04/2013 to 06/2014</td>
+        <td>Junior Analyst at Cabot Financial</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+  <hr size="3" noshade>  <!-- This writes a line of the given size across the page-->
+
+<!-- Creating an aggregate table for skills and rating. Note this table contains two nested tables -->
+  <table cellspacing="10" border="1">
+    <h3>Skills</h3>
+
+    <tbody>
+      <!-- Appending tables next to each other on the right hand side(Nesting tables) -->
+      <tr>  <!-- This is the first row of the aggregate table, the table that contains two tables -->
+        <td>
+          <table cellspacing="10">
+            <tr> <!-- Adding the first row of the first table section -->
+              <td> <!-- Adding MySQL -->
+                MySQL
+              </td>
+              <td>
+                ⭐⭐⭐⭐
+              </td>
+            </tr> <!--Adding the second row of the first table -->
+            <tr>
+              <td> <!--Adding SAS -->
+                SAS
+              </td>
+              <td>
+                ⭐⭐⭐⭐
+            </td>
+          </table>
+
+      </td>
+      <td> <!-- The second of the nested tables. This should appear on the right handside.  this is also the second column of the primary table -->
+
+        <table cellspacing="10">
+          <tr>
+            <td>
+              Python
+            </td>
+            <td>
+              ⭐⭐⭐
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              VBA
+            </td>
+            <td>
+              ⭐⭐⭐
+            </td>
+          </tr>
+          </table>  <!--Closing the second table -->
+      </td>  <!--Closing the second column of the aggregate table -->
+    </tr>
+    </tbody>
+  </table>  <!--Closing the aggregate table -->
+
+  <!-- Inserting a horizontal line to separate the sections -->
+  <hr size="3" noshade>  <!-- This writes a line of the given size across the page-->
+  <!-- Adding a link to a second page called hobbies which stores all the hobbies -->
+  <a href="hob.html">My Hobbies</a>
+
+  <a href="contact details.html">Contact me</a>
+
+</body>
+
+</html>
